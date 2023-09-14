@@ -3,10 +3,13 @@
     font-family: Arial;
     border: border-box;
 }
+
 .navbar{
 height:  80px;
 background-color: #0f1111;
 color: #ffffff;
+display: flex;
+align-items: center;
 }
 .nav-logo{
     height: 80px;
@@ -24,4 +27,42 @@ color: #ffffff;
 }
 .border:hover{
     border: 1.5px solid #fff;
+}
+
+/*Box 2*/
+.nav-address{
+    padding: 15px;
+}
+.add-first{
+    color: #fff;
+    font-size: 0.95rem;
+    margin-left: 15px;
+
+}
+.add-second{
+    font-size: 1.2rem;
+    margin-left: 3px;
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    
+}
+
+/*box 3*/
+.nav-search{
+    display: flex;
+    padding: 4px;
+    background-color: aqua;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-select{
+    
+width: 50px;
+text-align: center;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
 }
