@@ -10,6 +10,7 @@ background-color: #0f1111;
 color: #ffffff;
 display: flex;
 align-items: center;
+justify-content: space-evenly ;
 }
 .nav-logo{
     height: 80px;
@@ -53,11 +54,15 @@ align-items: center;
 /*box 3*/
 .nav-search{
     display: flex;
+    justify-content: space-evenly;
     padding: 4px;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     width: 620px;
     height: 40px;
     border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
 }
 .search-select{
     
@@ -65,4 +70,38 @@ width: 50px;
 text-align: center;
 border-top-left-radius: 5px;
 border-bottom-left-radius: 5px;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: rgb(108, 108, 108);
+    background-color: rgb(237, 151, 12);
+    border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+/**box 4**/
+span{
+    font-size: 0.8rem
+}
+.nav-second{
+    font: size 0.1em;
+    line-height: 15px;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 1rem;
+    font-weight: bold;
 }
